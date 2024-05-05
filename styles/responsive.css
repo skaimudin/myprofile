@@ -110,6 +110,11 @@
     footer {
         padding: 2rem 0;
     }
+
+    /* Portfolio */
+    .grid-3 {
+        gap: 2.7rem;
+    }
 }
 
 @media screen and (max-width: 640px) {
