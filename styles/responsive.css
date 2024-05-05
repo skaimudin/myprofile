@@ -80,11 +80,12 @@
 
     .hero-right {
         order: -1;
+        width: 85%;
     }
 
     .hero-right img {
-        width: 70%;
-    }
+        width: 60%;
+    } 
 
     .hero-left {
         text-align: center;
