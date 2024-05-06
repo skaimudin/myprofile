@@ -33,6 +33,7 @@ h1,h2,h3,h4,h5,h6, strong {
     color:var(--primaryTextColor) ;
 }
 
+
 p {
     font-size: 1rem; /* 16px */
     line-height: 1,9rem;
@@ -74,28 +75,31 @@ a {
 .section-title {
     margin: 1rem 0 4rem;
     font-size: 2rem;
+    text-align: center;
 }
 .pre-title {
     text-transform: uppercase;
     letter-spacing: .5rem;
     color: var(--secondaryTextColor);
     position: relative;
-    padding-left: 40px;
-    width: fit-content;
+    padding-left: 10px;
+    /* width: fit-content; */
     font-weight: 400;
     font-size: 0.9rem;
+    text-align: center;
 }
 
-.pre-title::before {
+/* .pre-title::before {
     content: "";
     width: 30px;
     height: 1px;
     background: var(--lineColor);
-    position: absolute;
+    position: relative;
     display: block;
     left: 0;
     top: 50%;
-}
+    align-items: center;
+} */
 
 /* layout */
 .grid-3 {
@@ -229,6 +233,11 @@ nav ul li a {
 /* Portfolio Section */
 #portfolios {
     padding: var(--sectionPadding);
+}
+
+
+.portfolio-tengah {
+    text-align: center;
 }
 
 .portfolio {
